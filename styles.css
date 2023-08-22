@@ -7,6 +7,10 @@ body, h1, h2, h3, p {
   body, html {
     height: 100%;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
   
   .parallax {
     background-image: url('IMG-20200220-WA0007.jpg');
@@ -80,8 +84,23 @@ body, h1, h2, h3, p {
     margin-bottom: 30px;
     padding: 20px;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 4px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 0;
+  }
   
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
