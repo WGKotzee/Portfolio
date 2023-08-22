@@ -3,6 +3,19 @@ body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
   }
+
+  body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    background-image: url('IMG-20200220-WA0007.jpg');
+    height: 60%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   
   /* Global styles */
   body {
@@ -56,7 +69,14 @@ body, h1, h2, h3, p {
   }
   
   /* Project styles */
-  .project {
+  .project1
+  .project2
+  .project3
+  .project4
+  .project5
+  .project6
+  .project7
+  .project8 {
     margin-bottom: 30px;
     padding: 20px;
     background-color: #fff;
